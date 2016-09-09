@@ -1,0 +1,15 @@
+#	\[       begin a sequence of non-printing characters, which could be used to embed a terminal con­ trol sequence into the prompt
+#       \]       end a sequence of non-printing characters
+#       \e       an ASCII escape character (033)
+#       [1m	 bold
+#       [31m     red foreground
+#       [0m      reset; clears all colors and styles (to white on black) 
+
+os_prompt-1() {
+	export PS1="\[\e[1m\e[31m\]O\[\e[37m\]penShift\[\e[0m\] : "
+}
+
+os_prompt-2() {
+	export PS1=$'\[\e[1m\e[31m\u25ef \e[37m\]OpenShift\[\e[0m\] : '
+}
+
