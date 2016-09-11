@@ -26,7 +26,7 @@ function main() {
 	}
 
 	// update content of elements
-	update(red,"red.html");
-	update(yellow,"yellow.html");
-	update(blue,"blue.html");
+	update(red,"/red/");
+	update(yellow,"/yellow/");
+	update(blue,"/blue/");
 }
