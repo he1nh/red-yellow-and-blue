@@ -7,8 +7,8 @@ COPY nginx.conf /etc/nginx/nginx.conf
 COPY html /var/lib/nginx/html/
 
 RUN mkdir /run/nginx
-RUN chgrp -R 0 /run/nginx /var/cache/nginx
-RUN chmod -R g+w /run/nginx /var/cache/nginx
+RUN chgrp -R 0 /run/nginx
+RUN chmod -R g+w /run/nginx
 
 USER nginx
 
