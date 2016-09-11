@@ -1,7 +1,7 @@
 FROM alpine:latest
 EXPOSE 8080
 
-RUN apk --no-cache add nginx && rm -rf /var/cache/apk/*
+RUN apk --no-cache add nginx curl && rm -rf /var/cache/apk/*
 
 COPY nginx.conf /etc/nginx/nginx.conf
 COPY html /var/lib/nginx/html/
