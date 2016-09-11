@@ -1,11 +1,19 @@
 {
-  "name": "blue",
-  "version": "0.1",
-  "description": "Node.js sample app for OpenShift 3",
+  "name": "red",
+  "version": "0.0.1",
+  "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/he1nh/red-yellow-and-blue.git"
   },
   "author": "Hein Hermans",
-  "license": "CC-BY-1.0",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/he1nh/red-yellow-and-blue/issues"
+  }
 }
