@@ -8,7 +8,7 @@ COPY html /var/lib/nginx/html/
 
 RUN mkdir /run/nginx
 RUN chgrp -R 0 /run/nginx /var/lib/nginx
-RUN chmod -R g+w /run/nginx /var/lib/nginx
+RUN chmod -R g+rwx /run/nginx /var/lib/nginx
 
 USER nginx
 
