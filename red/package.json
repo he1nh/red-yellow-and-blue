@@ -1,0 +1,11 @@
+{
+  "name": "blue",
+  "version": "0.1",
+  "description": "Node.js sample app for OpenShift 3",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+  },
+  "author": "Hein Hermans",
+  "license": "CC-BY-1.0",
+}
